@@ -1,0 +1,92 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.flexV {
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+}
+
+.flexH {
+    display: flex;
+    flex-direction: row;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.headerLogo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.headerItem {
+    margin-right: 10px;
+}
+
+.contentBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.contentBoxMargin {
+    flex-basis: 25%;
+    flex-shrink: 10;
+    flex-grow: 1;
+}
+
+.contentBoxContent {
+    flex-basis: 50%;
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+
+.pushRight {
+    margin-right: auto;
+}
+
+.section1 {
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.heroSection {
+    justify-content: space-between;
+}
+
+.heroPanel {
+    flex-grow: 0;
+    flex-basis: 40%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.heroText {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.heroDesc {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.heroButton {
+    background-color: #3882F6;
+    font-weight: bolder;
+    width: fit-content;
+    padding: 7px 30px;
+    border-radius: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.heroImage {
+    width: 400px;
+    height: auto;
+}
