@@ -1,5 +1,5 @@
 * {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .flexV {
@@ -133,4 +133,29 @@
 
 .informationSubtext {
     width: 130px;
+}
+
+.quoteSection {
+    background-color: #e5e7eb;
+}
+
+.quoteFlexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.quoteText {
+    font-size: 36px;
+    width: 520px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quoteSignature {
+    font-size: 18px;
+    width: 520px;
+    font-weight: bold;
+    text-align: right;
 }
