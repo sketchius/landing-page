@@ -4,6 +4,7 @@
 
 .flexV {
     display: flex;
+    margin: -10px;
     flex-direction: column;
     background-color: #1F2937;
 }
@@ -158,4 +159,59 @@
     width: 520px;
     font-weight: bold;
     text-align: right;
+}
+
+.calltoactionSection {
+    background-color: #f9faf8;
+}
+
+.calltoactionFlexbox {
+    background-color: #3882F6;
+    color:#f9faf8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.calltoactionTextbox {
+    flex: 0;
+    flex-basis: 60%;
+}
+
+.calltoactionBigtext {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.calltoactionButtonbox {
+    flex: 0;
+    flex-basis: 20%;
+}
+
+.calltoactionButton {
+    background-color: #3882F6;
+    border-color: #f9faf8;
+    font-weight: bolder;
+    width: fit-content;
+    border-width: 2px;
+    border-style: solid;
+    padding: 7px 30px;
+    border-radius: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.footerSection {
+    background-color: #1F2937;
+}
+
+.footer {
+    color: #e5e7eb;
+    text-align: center;
+    margin: 30px;
 }
